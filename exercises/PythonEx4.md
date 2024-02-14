@@ -151,3 +151,100 @@
     10	*	11	=	110
     10	*	12	=	120
     ```
+
+## Part 2 - Additional Function Exercises
+
+1.  Write a method called ``displayStars()`` which will accept an integer value ``n`` and will display ``n`` stars on screen.
+
+    Expected Output :
+    ```    
+    input number of stars:5
+
+    *****
+    ```
+
+    Test your code.
+
+1.  Write a Python program called `max.py` that defines a function `max()` to return the largest of any 2 numbers passed to it.
+   
+    ```python
+    def max(num1, num2):
+        ...
+        ...
+
+    print(f"The largest number is {max(10,20)}")
+    ```
+
+    Expected Output:
+    ```
+    The largest number is 20
+    ```
+
+    Test `max()` works with different values.
+
+1.  Write a Python program called `prices.py` that defines a function `prices()` that takes 3 values representing the price of
+3 different books.  The function will return the total price of these books.  If the total price is greater than 50 a 10% discount will be given.  
+
+    Write a Python program that:
+    - inputs in the price of 3 different books from the user
+    - calls this ``prices()`` function to get the total amount owed
+    - displays this total
+
+    Assume prices input have no decimal values.
+
+    Expected Output #1:
+    ```
+    Input price of book #1: 20
+    Input price of book #2: 20
+    Input price of book #3: 10
+    Total price = 50
+    ```
+
+    Expected Output #2:
+    ```
+    Input price of book #1: 10
+    Input price of book #2: 20
+    Input price of book #3: 30
+    Total price = 54.0
+    ```
+
+1.  Write a Python program called `tax.py` that defines a function `calculate_tax()` to calculate tax payable on an income value.  The function `calculate_tax()` will be passed a total income value and returns the tax payable based upon 2 bands of income.
+
+    ```python
+    def calculate_tax(income):
+        ...
+        ...
+        ...
+
+    income = input("Input income:")
+    print(f"Tax payable = ...")
+    ```
+
+
+    | Income Band  | Tax %  |
+    |---|---|
+    | 0-40,000  | @20%  |
+    | >40,000  | @40%  |
+
+    *Example 1*
+    Total Income = 30,000, tax payable = 30,000 x 20% = 6,000
+    
+    *Example 2*
+    Total Income = 50,000, tax payable = (40,000 x 20%) + (10,000 x 40%) = 8,000 + 4,000 = 12,000
+
+    Expected Output #1:
+    ```
+    Input income: 30000
+    Tax payable = 6000.0
+    ```
+
+    Expected Output #2:
+    ```
+    Input income: 50000
+    Tax payable = 12000.0
+    ```
+
+
+
+
+
